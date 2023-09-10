@@ -1,19 +1,19 @@
 from langchain import PromptTemplate
 from langchain.chat_models import ChatOpenAI
 from langchain.chains import LLMChain
-
+import os
 from output_parsers import summary_parser, ice_breaker_parser, topics_of_interest_parser
 
 
 llm = ChatOpenAI(
     temperature=0,
     model_name="gpt-3.5-turbo",
-    openai_api_key="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",
+    openai_api_key=os.environ.get("OPENAI_API_KEY"),
 )
 llm_creative = ChatOpenAI(
     temperature=1,
     model_name="gpt-3.5-turbo",
-    openai_api_key="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",
+    openai_api_key=os.environ.get("OPENAI_API_KEY"),
 )
 
 
