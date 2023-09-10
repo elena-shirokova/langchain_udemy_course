@@ -6,9 +6,6 @@
 This repository contains the projects covered in Udemy course by Eden Marco. The projects may differ from the original version due to various changes, i.e. ice breaker app does not support Twitter data for now. 
 
 
-![Logo](https://github.com/emarco177/ice_breaker/blob/main/static/banner.jpeg)
-[![udemy](https://img.shields.io/badge/LangChain%20Udemy%20Course-Coupon%20%2412.99-brightgreen)](https://www.udemy.com/course/langchain/?referralCode=D981B8213164A3EA91AC)
-
 ## Environment Variables
 
 To run this project, you will need to add the following environment variables to your .env file
@@ -21,25 +18,15 @@ To run this project, you will need to add the following environment variables to
 
 `SERPAPI_API_KEY`
 
-`TWITTER_API_KEY`
-
-`TWITTER_API_SECRET`
-
-`TWITTER_ACCESS_TOKEN`
-
-`TWITTER_ACCESS_SECRET`
 ## Run Locally
 
 Clone the project
 
-```bash
-  git clone https://github.com/emarco177/ice_breaker.git
-```
 
 Go to the project directory
 
 ```bash
-  cd ice_breaker
+  cd langchain_udemy_course
 ```
 
 Install dependencies
@@ -48,24 +35,10 @@ Install dependencies
   pipenv install
 ```
 
-Start the flask server
+To run a specific project, go to a dedicated folder:
 
 ```bash
-  pipenv run app.py
+  cd medium_analyser
+  python medium_analyser.py
 ```
-
-
-## Running Tests
-
-To run tests, run the following command
-
-```bash
-  pipenv run pytest .
-```
-
-
-## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://www.udemy.com/course/langchain/?referralCode=D981B8213164A3EA91AC)
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eden-marco/)
-[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://www.udemy.com/user/eden-marco/)
 
